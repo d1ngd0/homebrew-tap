@@ -15,6 +15,12 @@ class Kla < Formula
     bin.install "kla"
   end
 
+  def caveats
+    <<~EOS
+      If this is a fresh install run `kla init` to create a new config file
+    EOS
+  end
+
   test do
     system "#{bin}/kla", "--help"
   end
