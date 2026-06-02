@@ -3,6 +3,7 @@ class Kla < Formula
   homepage "https://github.com/d1ngd0/kla"
   url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-aarch64-apple-#{version}"
   sha256 "hash_for_arm"
+  version "0.4.2"
 
   if OS.mac?
     if Hardware::CPU.arm?
