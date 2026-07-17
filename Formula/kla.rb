@@ -2,16 +2,16 @@ class Kla < Formula
   desc "An HTTP CLI application for working with restful endpoints"
   homepage "https://github.com/d1ngd0/kla"
   sha256 "04d1aeb9b556a42aa2ed5344860fcde161b687c1a8490aa65b56fb40bd1f1eea"
-  version "0.4.4"
+  version "0.4.5"
   url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-aarch64-apple-#{version}"
 
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-aarch64-apple-#{version}"
-      sha256 "673ccaa9eaf9d771d5239d4c9836d75353be493bad134e4ee50256a6bf4a19ce"
+      sha256 "4ed4c44cee3c7e5cfbbe4c08f4bd82f0c62c7583c8951d478d0029d25b799811"
     else
       url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-x86_64-apple-#{version}"
-      sha256 "c438a40b079e27c8046e8ff3d06c54a02053f19a6998f5b9a402190b8cfbda6b"
+      sha256 "de52f8f68bb924b0e1d2a6db5e93a7e3e134f2bcdadd886f787f2aa48675f278"
     end
   end
 
