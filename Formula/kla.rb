@@ -1,9 +1,9 @@
 class Kla < Formula
   desc "An HTTP CLI application for working with restful endpoints"
   homepage "https://github.com/d1ngd0/kla"
-  version "0.5.4"
+  version "0.6.0"
   url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-aarch64-apple-#{version}"
-  sha256 "325522b06048f1364a2548a9e05891d831cca66f6a2c4b4f452e679a4e80b38e"
+  sha256 "879ab496edfb524afd9c9e3d8e404597626753c50dc3e97a330c11d8379bb080"
 
   def install
     # Rename the downloaded binary to just "kla"
