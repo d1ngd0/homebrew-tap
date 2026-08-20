@@ -3,7 +3,7 @@ class Kla < Formula
   homepage "https://github.com/d1ngd0/kla"
   version "0.6.0"
   url "https://github.com/d1ngd0/kla/releases/download/#{version}/kla-aarch64-apple-#{version}"
-  sha256 "879ab496edfb524afd9c9e3d8e404597626753c50dc3e97a330c11d8379bb080"
+  sha256 "8cb25d313f91355490f497b30b17d09624cb4912b1229b95cfad867ed3b5e70b"
 
   def install
     # Rename the downloaded binary to just "kla"
